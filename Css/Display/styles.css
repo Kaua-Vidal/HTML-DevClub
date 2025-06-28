@@ -1,0 +1,32 @@
+.box {
+    background: #FF1395;
+    height: 50px;
+    width: 50px;
+
+}
+
+.box-2 {
+    background: #FFFF00;
+}
+
+.box-3 {
+    background: #0003FF;
+}
+
+/*
+-> BLOCK -> já vem por padrão
+- Ocupa 100% da linha dele
+- Ocupa 100% da largura do elemento pai
+- Sempre ocupa toda a sua linha
+- Altura definida de acordo com o conteúdo
+- Podemos definir height e width
+- Podemos definir valores de margin
+
+
+-> INLINE -> Componentes ficam em linha
+- Ignora os valores de width e height
+- Não pode definir valores de margin top e bottom
+
+-> INLINE-BLOCK
+- Elementos em linha, mas com caracteristicas de block
+*/
