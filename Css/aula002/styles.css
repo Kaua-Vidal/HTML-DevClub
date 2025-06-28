@@ -1,3 +1,4 @@
-h1 {
-
+div {
+    padding: 30px; /*Vai expandir de dentro para fora*/
+    margin: 30px; /*Vai afastar na parte de fora*/
 }
