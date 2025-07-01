@@ -45,13 +45,12 @@ section {
 }
 
 h1 {
-    position: relative;
+    position: absolute;
     width: 582px;
     color: #161A49;
     font-size: 62px;
     font-weight: 700;
     line-height: 82px;
-    top: -130px;
 }
 
 p {
@@ -74,4 +73,42 @@ p {
     letter-spacing: 1px;
     text-decoration: none;
     top: -80px;
+}
+
+@media screen and (max-width: 800px) {
+    .link-header {
+        display: none;
+    }
+    
+    section {
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        width: auto;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin: 124px 55px 29px 57px
+    }
+
+    p {
+        width: 304px;
+
+    }
+
+    .logo-image {
+        position: static;
+        width: 312px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    main {
+        
+    }
 }
