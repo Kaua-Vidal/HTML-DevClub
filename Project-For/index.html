@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio-FOR</title>
+</head>
+
+<body>
+    <input id="input" placeholder="Digite o nome do contato">
+    <p>...</p>
+    <button onclick="procurarContato()">Procurar contato</button>
+</body>
+<script>
+    let p = document.querySelector('p')
+    let input = document.querySelector('#input')
+
+    const contacts = [
+        { name: 'Rodolfo', number: '(19) 94343-3434' },
+        { name: 'Paulo', number: '(12) 93443-3434' },
+        { name: 'Aline', number: '(13) 94566-3434' },
+        { name: 'Maria', number: '(14) 94343-3476' }
+    ]
+
+    function procurarContato() {
+
+        for (let c = 0; c < contacts.length; c++) {
+            if (input.value.toLowerCase() === contacts[c].name.toLowerCase()) {
+                p.innerHTML = `Contato encontrado! Seu número é: ${contacts[c].number}`
+                break;
+            } else {
+                p.innerHTML = 'Contato não encontrado'
+            }
+        }
+    }
+
+
+</script>
+
+</html>
