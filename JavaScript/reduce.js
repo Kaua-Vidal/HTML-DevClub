@@ -1,3 +1,7 @@
+/**
+ * vai reduzir tudo a um único valor
+ */
+
 const cart = [
     { productName: 'Abobora', pricePerKg: 5, kg: 1},
     { productName: 'Pepino', pricePerKg: 3.55, kg: 1.3},

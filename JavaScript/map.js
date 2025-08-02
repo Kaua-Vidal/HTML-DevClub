@@ -1,3 +1,7 @@
+/**
+ * Vai alterar item por item e colocar em um novo array
+ */
+
 const students = [
     { name: 'Rodolfo', testGrade: 7 },
     { name: 'Maria', testGrade: 5 },
